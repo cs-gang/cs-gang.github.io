@@ -1,2 +1,8 @@
+# node modules
 /node_modules
+
+#husky stuff
 .sh
+
+#eslint cache
+.eslintcache
