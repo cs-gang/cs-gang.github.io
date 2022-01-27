@@ -1,0 +1,42 @@
+baseURL = 'https://csgang.xyz'
+languageCode = 'en-uk'
+title = 'cs-gang'
+theme = 'terminal'
+paginate = 5
+
+[params]
+    themeColor = 'orange'
+    showMenuItems = 2
+    showLanguageSelector = false
+    fullWidthTheme = false
+    centerTheme = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "cs-gang"
+    subtitle = "Occassionally making fun stuff"
+    owner = "cs-gang"
+    keywords = "development"
+    copyright = "forever"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "cs-gang"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
