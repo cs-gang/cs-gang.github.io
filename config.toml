@@ -1,4 +1,4 @@
-baseURL = 'https://csgang.xyz'
+baseURL = ''
 languageCode = 'en-uk'
 title = 'cs-gang'
 theme = 'terminal'
