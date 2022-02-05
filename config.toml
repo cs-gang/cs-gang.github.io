@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = '/'
 languageCode = 'en-uk'
 title = 'cs-gang'
 theme = 'terminal'
