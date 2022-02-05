@@ -11,4 +11,4 @@ draft: false
 
 We are a group of comp sci undergrad students, who try building fun stuff when we can.
 
-{{< image src="/img/gh_logo.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/gh_logo.png" alt="Organization logo" position="center"  style="border-radius: 0.3rem"  >}}
