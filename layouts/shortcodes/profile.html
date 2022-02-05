@@ -1,0 +1,17 @@
+<div style="display: flex; flex-direction: row; gap: 30rem; padding: 0.5rem;">
+    <div>
+        <h3>{{ .Get "name" }}</h3>
+        <p>{{ .Get "description" }}</p>
+
+        <p>
+            <a href='https://github.com/{{ .Get "github" }}'>GitHub</a>
+            {{ if .Get "linkedin" }}
+            <a href='{{ .Get "linkedin" }}'>LinkedIn</a>
+            {{ end }}
+            {{ if .Get "mail" }}
+            <a href='mailto:{{ .Get "mail" }}'>Mail</a>
+            {{ end }}
+        </p>
+    </div>
+    <img style="flex: auto; margin-top: auto; border-radius: 0.5rem;" src='https://github.com/{{ .Get "github" }}.png' alt='{{ .Get "name" }}&lsquo;s profile picture' width="100" height="100">
+</div>
