@@ -10,4 +10,4 @@ draft: false
 
 {{< profile name="Anand" description="CSE student at MNNIT, Allahabad" github="anand2312" linkedin="https://www.linkedin.com/in/anand-krishna-52217b21b/" mail="anand@csgang.xyz" >}}
 
-{{< profile name="Prathik" description="AI&DS student at RSET, Cochi" github="bigbarin69" >}}
+{{< profile name="Prathik" description="AI&DS student at RSET, Cochi" github="bigbarin69" mail="prathik@csgang.xyz" >}}
